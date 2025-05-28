@@ -1,7 +1,7 @@
 // src/pages/SignUpPage.jsx (atau src/auth/SignUpPage.jsx)
 import React, { useState } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '../auth/authContext'; // Sesuaikan path jika AuthContext ada di level berbeda
+import { useAuth } from '../auth/AuthContext'; // Sesuaikan path jika AuthContext ada di level berbeda
 
 const SignUpPage = () => {
   const [email, setEmail] = useState('');

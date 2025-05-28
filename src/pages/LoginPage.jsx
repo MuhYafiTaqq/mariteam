@@ -1,7 +1,7 @@
 // src/pages/LoginPage.jsx (atau src/auth/LoginPage.jsx)
 import React, { useState, useEffect } from 'react';
 import { useNavigate, Link } from 'react-router-dom';
-import { useAuth } from '../auth/authContext'; // Sesuaikan path
+import { useAuth } from '../auth/AuthContext'; // Sesuaikan path
 
 const LoginPage = () => {
   const [email, setEmail] = useState('');

@@ -1,6 +1,6 @@
 // src/pages/HomePage.jsx
 import React from 'react';
-import { useAuth } from '../auth/authContext'; // Sesuaikan path
+import { useAuth } from '../auth/AuthContext'; // Sesuaikan path
 import { useNavigate } from 'react-router-dom';
 
 const HomePage = () => {
