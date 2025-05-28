@@ -45,6 +45,10 @@ function PublicRoute({ children }) {
 const AppRoutes = () => {
   return (
     <Routes>
+
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+
       {/* Rute Publik (Halaman Login dan Sign Up) */}
       <Route 
         path="/login" 
@@ -91,8 +95,6 @@ const AppRoutes = () => {
       {/* Opsi 2: Tampilkan halaman NotFoundPage (jika Anda membuatnya) */}
       {/* <Route path="*" element={<NotFoundPage />} /> */}
 
-      <Route path="/terms" element={<Terms />} />
-      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
     </Routes>
   );
