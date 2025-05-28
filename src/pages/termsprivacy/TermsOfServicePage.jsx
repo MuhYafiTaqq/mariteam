@@ -1,7 +1,7 @@
 // File: Terms.jsx
 import React from 'react';
 
-const Terms = () => {
+const TermsOfServicePage = () => {
   return (
     <div className="bg-white text-gray-800 px-6 py-12 max-w-4xl mx-auto min-h-screen">
       <h1 className="text-3xl font-bold mb-6 text-gray-900">Terms of Service</h1>
@@ -39,4 +39,4 @@ const Terms = () => {
   );
 };
 
-export default Terms;
+export default TermsOfServicePage;

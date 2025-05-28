@@ -1,6 +1,6 @@
 import React from 'react';
 
-const PrivacyPolicy = () => {
+const PrivacyPolicyPage = () => {
   return (
     <div className="bg-white text-gray-800 px-6 py-12 max-w-4xl mx-auto min-h-screen">
       <h1 className="text-3xl font-bold mb-6 text-gray-900">Privacy Policy</h1>
@@ -45,4 +45,4 @@ const PrivacyPolicy = () => {
   );
 };
 
-export default PrivacyPolicy;
+export default PrivacyPolicyPage;

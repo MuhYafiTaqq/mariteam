@@ -19,8 +19,9 @@ import QuizPage from '../features/learning/pages/QuizPage';
 import SettingsPage from '../features/settings/pages/SettingsPage';
 import ViewScoresPage from '../features/scores/pages/ViewScoresPage';
 
-import Terms from '../pages/termsprivacy/terms';
-import PrivacyPolicy from '../pages/termsprivacy/PrivacyPolicy';
+import TermsOfServicePage from '../pages/termsprivacy/TermsOfServicePage';
+import PrivacyPolicyPage from '../pages/termsprivacy/PrivacyPolicy';
+
 // (Opsional) Import halaman jika rute tidak ditemukan
 // import NotFoundPage from '../pages/NotFoundPage';
 
@@ -46,8 +47,8 @@ const AppRoutes = () => {
   return (
     <Routes>
 
-      <Route path="/terms" element={<Terms />} />
-      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+      <Route path="/terms-of-service" element={<TermsOfServicePage />} />
 
       {/* Rute Publik (Halaman Login dan Sign Up) */}
       <Route 
