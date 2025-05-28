@@ -19,6 +19,8 @@ import QuizPage from '../features/learning/pages/QuizPage';
 import SettingsPage from '../features/settings/pages/SettingsPage';
 import ViewScoresPage from '../features/scores/pages/ViewScoresPage';
 
+import Terms from '../pages/termsprivacy/terms';
+import PrivacyPolicy from '../pages/termsprivacy/PrivacyPolicy';
 // (Opsional) Import halaman jika rute tidak ditemukan
 // import NotFoundPage from '../pages/NotFoundPage';
 
@@ -88,6 +90,9 @@ const AppRoutes = () => {
       
       {/* Opsi 2: Tampilkan halaman NotFoundPage (jika Anda membuatnya) */}
       {/* <Route path="*" element={<NotFoundPage />} /> */}
+
+      <Route path="/terms" element={<Terms />} />
+      <Route path="/privacy-policy" element={<PrivacyPolicy />} />
 
     </Routes>
   );
